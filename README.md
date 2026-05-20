@@ -24,6 +24,8 @@ The Incus part should be self-evident, and the `p` is of course for for `Python`
 
 ## Project Milestones
 
+See [docs/MILESTONES.md](docs/MILESTONES.md) for details.
+
 - [x] Initial brainstorming complete
 - [x] Authenticated connectivity to Incus established
 - [x] Prototype sketch complete
