@@ -30,6 +30,7 @@ See [docs/MILESTONES.md](docs/MILESTONES.md) for details.
 - [x] Authenticated connectivity to Incus established
 - [x] Prototype sketch complete
 - [x] First `Textual` TUI spike can call Incus
+- [ ] TUI layout complete
 - [ ] TUI populated with dummy data
   - [ ] Images
   - [ ] Projects
