@@ -25,5 +25,6 @@ Input {
     background: $background 50%;
     overflow: auto;
     margin: 1 2;
-    height: 100%;
+    padding: 1 1;
+    height: 80%;
 }
