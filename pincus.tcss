@@ -1,30 +1,31 @@
-Screen {
-    background: $panel;
+TerminalModal {
+    align: center middle;
 }
 
-Input, Button, Label {
-    margin: 1 2;
+#top-pane {
+    height: 1fr;
 }
 
-/*
-Input {
-    dock: top;
-    width: 100%;
-    height: 1;
+#instance-list {
+    width: 1fr;
+    /* border: solid $primary; */
+    margin: 1 1;
+    height: 1fr;
+}
+
+#instance-detail {
+    width: 2fr;
+    /* border: solid $primary; */
+    margin: 1 1;
     padding: 0 1;
-    margin: 1 1 0 1;
-}
-*/
-
-#results {
-    width: auto;
-    min-height: 100%;
+    height: 1fr;
 }
 
-#results-container {
-    background: $background 50%;
-    overflow: auto;
-    margin: 1 2;
-    padding: 1 1;
+#terminal-container {
+    width: 80%;
     height: 80%;
+}
+
+#shell {
+    border: solid $accent;
 }
